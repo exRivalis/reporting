@@ -20,13 +20,16 @@ app.get('/', function(req, res){
 
 // data request
 app.get('/sources', function(req, res){
-    list = {'sources':{'adv':['adv_1', 'adv_2', 'adv_3'], 'bdf':['bdf_1', 'bdf_2'], 'aqzc20':['f1', 'f2', 'f54'],
-            'adv1':['adv_1'], 'bdf1':['bdf_1'], 'aqzc202':['f1'],
-            'adv2':['adv_1'], 'bdf2':['bdf_1'], 'aqzc222':['f1'],
-            'adv3':['adv_1'], 'bdf13':['bdf_1'], 'aqzc203':['f1'],
-            'adv4':['adv_1'], 'bdf4':['bdf_1'], 'aqzc204':['f1'],
-            'adv5':['adv_1'], 'bdf5':['bdf_1'], 'aqzc2025':['f1'],    
-        }};
+    list = {'sources':{'src_1':['file_1', 'file_2', 'file_3'], 'src_2':['file_1', 'file_2', 'file_3'],
+                  'src_3':['file_1', 'file_2', 'file_3'], 'src_4':['file_1', 'file_2', 'file_3'],
+                  'src_5':['file_1', 'file_2', 'file_3'], 'src_6':['file_1', 'file_2', 'file_3'],
+                  'src_7':['file_1', 'file_2', 'file_3'], 'src_8':['file_1', 'file_2', 'file_3'],
+                  'src_9':['file_1', 'file_2', 'file_3'], 'src_10':['file_1', 'file_2', 'file_3'],
+                  'src_11':['file_1', 'file_2', 'file_3'], 'src_14':['file_1', 'file_2', 'file_3'],
+                  'src_13':['file_1', 'file_2', 'file_3'], 'src_16':['file_1', 'file_2', 'file_3'],
+                  'src_15':['file_1', 'file_2', 'file_3'], 'src_17':['file_1', 'file_2', 'file_3'],
+                  
+}};
     res.send(list);
 })
 

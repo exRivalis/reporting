@@ -30,9 +30,11 @@ function loadSources(data){
   }
 }
 
-list = {'sources':{'adv':['adv_1', 'adv_2', 'adv_3'], 'bdf':['bdf_1', 'bdf_2'], 'aqzc20':['f1', 'f2', 'f54'],
-'adv':['adv_1', 'adv_2', 'adv_3'], 'bdf':['bdf_1', 'bdf_2'], 'aqzc20':['f1, f2, f54'],
-'adv':['adv_1', 'adv_2', 'adv_3'], 'bdf':['bdf_1', 'bdf_2'], 'aqzc20':['f1, f2, f54']}};
+list = {'sources':{'src_1':['file_1', 'file_2', 'file_3'], 'src_2':['file_1', 'file_2', 'file_3'],
+                  'src_3':['file_1', 'file_2', 'file_3'], 'src_4':['file_1', 'file_2', 'file_3'],
+                  'src_5':['file_1', 'file_2', 'file_3'], 'src_6':['file_1', 'file_2', 'file_3'],
+                  'src_7':['file_1', 'file_2', 'file_3'], 'src_8':['file_1', 'file_2', 'file_3'],
+}};
 
 
 // $.getJSON(
